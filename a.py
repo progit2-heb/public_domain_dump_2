@@ -88,4 +88,5 @@ for root, dir, file in os.walk(books_folder):
         if file_name.lower().endswith(".html"):
             file_path = os.path.join(root, file_name)
             main(file_path)
+            print(file_path)
  
